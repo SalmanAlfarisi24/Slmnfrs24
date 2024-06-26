@@ -5,26 +5,26 @@ const bRefersh = document.getElementById('bRefresh');
 function generate(){
     event.preventDefault();
     let namaKhodam = [
-        "Singa", 
-        "Harimau Siberia", 
+        "Unta arab", 
+        "Harimau (hari² maunya kamu)", 
         "Gajah Afrika", 
         "Kuda Nil", 
-        "Beruang Grizzly", 
-        "Buaya Muara", 
-        "Harimau Sumatra", 
-        "Paus Biru", 
-        "Anaconda", 
-        "Cheetah",
-        "Panda", 
+        "Ber-uang", 
+        "Buaya darat", 
+        "Tuyul miskin", 
+        "Pocong dance", 
+        "Kecoa", 
+        "Tikus kantor",
+        "Ikan buntal", 
         "Koala", 
-        "Otot-otot", 
-        "Musang", 
+        "Samsudin", 
+        "Jimin (Jin Miskin)", 
         "Kucing Persia", 
-        "Kanguru", 
-        "Lumba-lumba", 
-        "Kura-kura", 
-        "Kupu-kupu", 
-        "Anjing Shih Tzu"
+        "Kan-guru", 
+        "Paus ijo", 
+        "Mimi Peri", 
+        "Kupu²", 
+        "Kuntil-anak"
     ];
 const nameRandom = Math.floor(Math.random() * namaKhodam.length);
 const hasilGenerate = namaKhodam[nameRandom];
