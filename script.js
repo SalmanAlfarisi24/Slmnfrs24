@@ -5,7 +5,7 @@ const bRefersh = document.getElementById('bRefresh');
 function generate(){
     event.preventDefault();
     let namaKhodam = [
-        "Unta arab", 
+        "Unta Arab", 
         "Harimau (hari² maunya kamu)", 
         "Gajah Afrika", 
         "Kuda Nil", 
